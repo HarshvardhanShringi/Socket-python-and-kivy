@@ -59,8 +59,8 @@ class SocketServerApp:
         self.stop_button.config(state='disabled')
 
     def run_server(self):
-        host = "192.168.115.148"  # Update with the server's IP address
-        port = 57320
+        host = ""  # Update with the server's IP address
+        port = 
         self.server_socket = socket.socket()
         self.server_socket.bind((host, port))
         self.server_socket.listen()
