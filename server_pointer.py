@@ -9,8 +9,8 @@ class RemoteMouseServer:
         self.master.title("Remote Mouse Server")
 
         # Fixed IP and Port
-        self.ip_address = "192.168.115.148"
-        self.port = 57320
+        self.ip_address = ""
+        self.port = 
 
         # Initialize server variables
         self.server = None
